@@ -1,0 +1,24 @@
+
+.container {
+    margin: 40px 100px;
+    width: 800px;
+    height: 800px;
+    display: grid;
+}
+
+.square {
+    margin: -2px 0 0 -2px;
+    border: 2px solid black;
+}
+
+.new-grid {
+    margin-left: 450px;
+    height: 30px;
+    width: 100px;
+    border: 0;
+    cursor: pointer;
+}
+
+.new-grid:hover {
+    background-color: #e6e6e6;
+}
