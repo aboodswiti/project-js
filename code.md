@@ -1,0 +1,163 @@
+# project-js
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<style>
+html,body{
+margin: 0;
+padding: 0;
+}
+
+/*Start Header*/
+header img{
+width: 25px;
+height: 25px;
+}
+#left-item{
+text-align: right;
+}
+#left-item a , img , button{
+margin:10px;
+}
+#left-item img{
+    vertical-align: middle;
+}
+#left-item a{
+text-decoration: none;
+color:#333;
+}
+#left-item a:hover{
+text-decoration: underline;
+color:#333;
+}
+
+#left-item button{
+padding: 8px 15px;
+background: #4285f4;
+color:#fff;
+border:1px solid #4285f4;
+border-radius: 3px;
+}
+/*End Header*/
+
+/*Main Content*/
+.main img{
+width: 20%;
+}
+.main{
+text-align:center;
+position: absolute;
+top:25%;
+width: 100%;
+}
+#search-input{
+margin: 30px;
+width: 35%;
+padding: 15px 20px;
+border:1px solid #ccc;
+border-radius: 100px;
+}
+form div input{
+padding: 15px 30px;
+margin: 0px 10px;
+background: #fff;
+border:1px solid #fff;
+
+}
+form div input:hover{
+background: #f2f2f2;
+border :1px solid #ccc;
+border-radius: 5px;
+cursor: pointer;
+
+}
+.offered span{
+color: blue;
+}
+.offered span:hover{
+text-decoration: underline;
+cursor: pointer;
+}
+/*End Main*/
+
+
+/*Start Footer*/
+footer{
+position: absolute;
+width: 100%;
+bottom: 0;
+}
+.d1 , .d2{
+background: #cccccc70;
+color: #33333380;
+padding: 10px;
+border-top: 1px solid #ccc;
+}
+.d1 p{
+margin: 0px 10px;
+}
+.a1{
+display: inline;
+}
+.a2{
+float: right;
+}
+.a1 a,.a2 a{
+margin: 5px 10px;
+text-decoration: none;
+color: #33333380;
+}
+</style>
+</head>
+<body>
+<header>
+<div id="left-item">
+<a href="#">Gmail</a>
+<a href="#">Images</a>
+<img src="grid.png">
+<button>Sign in</button>
+</div>
+</header>
+
+<div class="main">
+<img src="google.png">
+<form>
+<input id="search-input" type="text" placeholder="Seach..">
+<div>
+<input type="submit" value="Google Search">
+<input type="submit" value="I'm Feeling Lucky">
+
+</div>
+</form>
+<div class="offered">
+<p>Google offered in: <span>العربية</span></p>
+
+</div>
+</div>
+
+<footer>
+<div class="d1">
+<p>Palestine</p>
+</div>
+<div class="d2">
+<div class="a1">
+<a href="#">Advertising</a>
+<a href="#">Business</a>
+<a href="#">About</a>
+<a href="#">How</a>
+<a href="#">Search</a>
+<a href="#">works</a>
+
+
+</div>
+<div class="a2">
+<a href="#">Privacy</a>
+<a href="#">Terms</a>
+<a href="#">Settings</a>
+</div>
+</div>
+</footer>
+</body>
+</html>
+--
